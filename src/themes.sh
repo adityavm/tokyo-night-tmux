@@ -51,6 +51,30 @@ case $SELECTED_THEME in
   )
   ;;
 
+"dawn")
+  declare -A THEME=(
+    ["background"]="#f4ede8"
+    ["foreground"]="#575279"
+    ["black"]="#f2e9e1"
+    ["blue"]="#286983"
+    ["cyan"]="#56949f"
+    ["green"]="#286983"
+    ["magenta"]="#907aa9"
+    ["red"]="#b4637a"
+    ["white"]="#575279"
+    ["yellow"]="#ea9d34"
+
+    ["bblack"]="#dfdad9"
+    ["bblue"]="#286983"
+    ["bcyan"]="#56949f"
+    ["bgreen"]="#286983"
+    ["bmagenta"]="#907aa9"
+    ["bred"]="#b4637a"
+    ["bwhite"]="#dfdad9"
+    ["byellow"]="#ea9d34"
+  )
+  ;;
+
 "rose")
   declare -A THEME=(
     ["background"]="#191724"
